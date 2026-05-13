@@ -21,7 +21,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## C program that receives a message from message queue and display them
-
+```
 #include <stdio.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
@@ -55,6 +55,8 @@ int main()
 
     return 0;
 }                              RECEIVER
+```
+```
 
 #include <stdio.h>
 #include <sys/ipc.h>
@@ -90,6 +92,7 @@ int main()
 
     return 0;
 }                     SENDER
+```
 
 
 ## OUTPUT
